@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: love;
+            src: url(fontes/Filxgirl.TTF) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format();
+                - opentype (OTF)
+                - truetype (TTF)
+                - embedde-opentype
+                - truetype-aat (Appel Advanced Typography)
+                - SVG
+            */
+        }
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        h1 {
+            font-family: love, Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia hic voluptate nostrum recusandae, asperiores quasi? Odit dolorum delectus maiores repellat eius, consequatur soluta veniam voluptates, in perferendis qui blanditiis deserunt!</p>
+    
+</body>
+</html>
