@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse:collapse;
+    width:100%;
+}
+
+tr, td {
+    border:1px solid black;
+    padding:10px;
+}
+
+thead {
+    background-color:chocolate;
+    color:white;
+    font-weight:bolder;
+    text-align:center;
+}
+
+tr:nth-child(even) {
+    background-color:burlywood
+}
